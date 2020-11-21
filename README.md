@@ -17,7 +17,11 @@ Add new exercises to a new workout plan.
 View the combined weight of multiple exercises on the stats page.
 
 ## Installation
-Run an npm install Run node server.js. In browser, open localhost:8080
+Run an npm install 
+
+Run node server.js. 
+
+In browser, open localhost:8080
 
 ## ScreenShots
 <img src="HomePage.png" alt="Home Page Screenshot">
@@ -25,4 +29,5 @@ Run an npm install Run node server.js. In browser, open localhost:8080
 
 ## Links
 https://github.com/RRenneke/WorkoutTracker
+
 https://rrenneke.github.io/WorkoutTracker
