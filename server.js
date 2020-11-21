@@ -7,16 +7,13 @@ const logger = require("morgan");
 
 //set port
 const PORT = process.env.PORT || 8080;
-
 const app = express();
 
 //use logger
 app.use(logger("dev"));
-
 //parser
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
 //use static files
 app.use(express.static("public"));
 
