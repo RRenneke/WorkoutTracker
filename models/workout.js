@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 const workoutSchema = new Schema(
     {
+        //defaulting to today's date
   day: {
     type: Date,
     default: Date.now
